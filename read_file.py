@@ -1,5 +1,5 @@
 import csv
-
+print('app started')
 try:
     with open('sample.csv','r') as f:
         rows = csv.reader(f)
